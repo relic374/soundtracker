@@ -10,6 +10,22 @@ this tool emulates/implements a fictitious soundchip that I thought of years ago
 
 ssinter is an interpreter for the soundchip dump format. check [ssformat.md](papers/ssformat.md) for more information.
 
+# build instructions
+
+the only available build instructions are for linux. if you have built it on another OS, please open a pull request with instructions on how to build on that platform and it will be added.
+
+## linux build instructions
+
+on your distro you'll need CMake, Git and a C++ compiler.
+run the following commands:
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+enjoy your newly built binary of soundtracker! :)
+
 # notes
 
 this project uses blip-buf, which is under the same license.
