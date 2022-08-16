@@ -23,196 +23,13 @@ int dpiScale;
 #define SDIR_SEPARATOR "/"
 #endif
 
-const char* sdl2_License="Copyright (C) 1997-2021 Sam Lantinga <slouken@libsdl.org>\n"
-"\n"
-"This software is provided 'as-is', without any express or implied\n"
-"warranty.  In no event will the authors be held liable for any damages\n"
-"arising from the use of this software.\n"
-"\n"
-"Permission is granted to anyone to use this software for any purpose,\n"
-"including commercial applications, and to alter it and redistribute it\n"
-"freely, subject to the following restrictions:\n"
-"  \n"
-"1. The origin of this software must not be misrepresented; you must not\n"
-"   claim that you wrote the original software. If you use this software\n"
-"   in a product, an acknowledgment in the product documentation would be\n"
-"   appreciated but is not required. \n"
-"2. Altered source versions must be plainly marked as such, and must not be\n"
-"   misrepresented as being the original software.\n"
-"3. This notice may not be removed or altered from any source distribution.";
-const char* fmt_License="Copyright (c) 2012 - present, Victor Zverovich\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining\n"
-"a copy of this software and associated documentation files (the\n"
-"\"Software\"), to deal in the Software without restriction, including\n"
-"without limitation the rights to use, copy, modify, merge, publish,\n"
-"distribute, sublicense, and/or sell copies of the Software, and to\n"
-"permit persons to whom the Software is furnished to do so, subject to\n"
-"the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be\n"
-"included in all copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
-"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
-"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
-"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
-"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
-"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
-"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"
-"\n"
-"--- Optional exception to the license ---\n"
-"\n"
-"As an exception, if, as a result of your compiling your source code, portions\n"
-"of this Software are embedded into a machine-executable object form of such\n"
-"source code, you may redistribute such embedded portions in such object form\n"
-"without including the above copyright and permission notices.";
-const char* imgui_License="Copyright (c) 2014-2021 Omar Cornut\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
-"of this software and associated documentation files (the \"Software\"), to deal\n"
-"in the Software without restriction, including without limitation the rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
-"SOFTWARE.";
-const char* igfd_License="Copyright (c) 2018-2020 Stephane Cuillerdier (aka Aiekick)\n"
-"\n"
-"Permission is hereby granted, free of charge, to any person obtaining a copy\n"
-"of this software and associated documentation files (the \"Software\"), to deal\n"
-"in the Software without restriction, including without limitation the rights\n"
-"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n"
-"copies of the Software, and to permit persons to whom the Software is\n"
-"furnished to do so, subject to the following conditions:\n"
-"\n"
-"The above copyright notice and this permission notice shall be included in all\n"
-"copies or substantial portions of the Software.\n"
-"\n"
-"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n"
-"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
-"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
-"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
-"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n"
-"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n"
-"SOFTWARE.";
-const char* ibmplex_License="Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"\n"
-"\n"
-"This Font Software is licensed under the SIL Open Font License, Version 1.1.\n"
-"This license is copied below, and is also available with a FAQ at:\n"
-"http://scripts.sil.org/OFL\n"
-"\n"
-"-----------------------------------------------------------\n"
-"SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n"
-"-----------------------------------------------------------\n"
-"\n"
-"PREAMBLE\n"
-"The goals of the Open Font License (OFL) are to stimulate worldwide\n"
-"development of collaborative font projects, to support the font creation\n"
-"efforts of academic and linguistic communities, and to provide a free and\n"
-"open framework in which fonts may be shared and improved in partnership\n"
-"with others.\n"
-"\n"
-"The OFL allows the licensed fonts to be used, studied, modified and\n"
-"redistributed freely as long as they are not sold by themselves. The\n"
-"fonts, including any derivative works, can be bundled, embedded, \n"
-"redistributed and/or sold with any software provided that any reserved\n"
-"names are not used by derivative works. The fonts and derivatives,\n"
-"however, cannot be released under any other type of license. The\n"
-"requirement for fonts to remain under this license does not apply\n"
-"to any document created using the fonts or their derivatives.\n"
-"\n"
-"DEFINITIONS\n"
-"\"Font Software\" refers to the set of files released by the Copyright\n"
-"Holder(s) under this license and clearly marked as such. This may\n"
-"include source files, build scripts and documentation.\n"
-"\n"
-"\"Reserved Font Name\" refers to any names specified as such after the\n"
-"copyright statement(s).\n"
-"\n"
-"\"Original Version\" refers to the collection of Font Software components as\n"
-"distributed by the Copyright Holder(s).\n"
-"\n"
-"\"Modified Version\" refers to any derivative made by adding to, deleting,\n"
-"or substituting -- in part or in whole -- any of the components of the\n"
-"Original Version, by changing formats or by porting the Font Software to a\n"
-"new environment.\n"
-"\n"
-"\"Author\" refers to any designer, engineer, programmer, technical\n"
-"writer or other person who contributed to the Font Software.\n"
-"\n"
-"PERMISSION & CONDITIONS\n"
-"Permission is hereby granted, free of charge, to any person obtaining\n"
-"a copy of the Font Software, to use, study, copy, merge, embed, modify,\n"
-"redistribute, and sell modified and unmodified copies of the Font\n"
-"Software, subject to the following conditions:\n"
-"\n"
-"1) Neither the Font Software nor any of its individual components,\n"
-"in Original or Modified Versions, may be sold by itself.\n"
-"\n";
-const char* ibmplex_License2="2) Original or Modified Versions of the Font Software may be bundled,\n"
-"redistributed and/or sold with any software, provided that each copy\n"
-"contains the above copyright notice and this license. These can be\n"
-"included either as stand-alone text files, human-readable headers or\n"
-"in the appropriate machine-readable metadata fields within text or\n"
-"binary files as long as those fields can be easily viewed by the user.\n"
-"\n"
-"3) No Modified Version of the Font Software may use the Reserved Font\n"
-"Name(s) unless explicit written permission is granted by the corresponding\n"
-"Copyright Holder. This restriction only applies to the primary font name as\n"
-"presented to the users.\n"
-"\n"
-"4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n"
-"Software shall not be used to promote, endorse or advertise any\n"
-"Modified Version, except to acknowledge the contribution(s) of the\n"
-"Copyright Holder(s) and the Author(s) or with their explicit written\n"
-"permission.\n"
-"\n"
-"5) The Font Software, modified or unmodified, in part or in whole,\n"
-"must be distributed entirely under this license, and must not be\n"
-"distributed under any other license. The requirement for fonts to\n"
-"remain under this license does not apply to any document created\n"
-"using the Font Software.\n"
-"\n"
-"TERMINATION\n"
-"This license becomes null and void if any of the above conditions are\n"
-"not met.\n"
-"\n"
-"DISCLAIMER\n"
-"THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
-"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n"
-"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n"
-"OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n"
-"COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n"
-"INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n"
-"DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n"
-"FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n"
-"OTHER DEALINGS IN THE FONT SOFTWARE.";
-const char* blip_License="Library Copyright (C) 2003-2009 Shay Green. This library is free software;\n"
-"you can redistribute it and/or modify it under the terms of the GNU Lesser\n"
-"General Public License as published by the Free Software Foundation; either\n"
-"version 2.1 of the License, or (at your option) any later version. This\n"
-"library is distributed in the hope that it will be useful, but WITHOUT ANY\n"
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\n"
-"A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more\n"
-"details. You should have received a copy of the GNU Lesser General Public\n"
-"License along with this module; if not, write to the Free Software Foundation,\n"
-"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA";
-
 bool ntsc=false;
+bool debounce=false;
 
 //// INCLUDES AND STUFF ////
 #include "tracker.h"
 #include "fonts.h"
+#include "licenses.h"
 
 #include <deque>
 #include <stdexcept>
@@ -478,6 +295,7 @@ bool songEditOpen=false;
 bool pcmEditOpen=false;
 bool aboutOpen=false;
 bool macroGraph=false;
+bool record=false;
 
 struct SelectionPoint {
   int x, y;
@@ -2956,7 +2774,7 @@ void drawPatterns(float ypos) {
         ImGui::PushStyleColor(ImGuiCol_HeaderHovered,ImVec4(0.1f,0.3f,0.1f,1.0f));
         ImGui::PushStyleColor(ImGuiCol_Text,ImVec4(1.0f,1.0f,1.0f,1.0f));
       }
-      ImGui::Selectable(fmt::sprintf(" %d##_CH%d",i,i).c_str(),!player.channelMask[i],ImGuiSelectableFlags_NoPadWithHalfSpacing,ImVec2(0.0f,lineHeight+2.0f*dpiScale));
+      ImGui::Selectable(fmt::sprintf(" Track %d##_CH%d",i,i).c_str(),!player.channelMask[i],ImGuiSelectableFlags_NoPadWithHalfSpacing,ImVec2(0.0f,lineHeight+2.0f*dpiScale));
       ImGui::PopStyleColor();
       ImGui::PopStyleColor();
       ImGui::PopStyleColor();
@@ -3019,6 +2837,8 @@ void drawPatterns(float ypos) {
         if (p->data[i][j][0]==0) {
           ImGui::PushStyleColor(ImGuiCol_Text,colors[colInvalidEffect]);
         }
+        if (record)
+        	ImGui::PushStyleColor(ImGuiCol_Header, 0x91141fff);
         ImGui::Selectable(id,selectedNote,ImGuiSelectableFlags_NoPadWithHalfSpacing,threeChars);
         if (ImGui::IsItemClicked()) {
           startSelection(j*5,i);
@@ -3029,6 +2849,8 @@ void drawPatterns(float ypos) {
         if (p->data[i][j][0]==0) {
           ImGui::PopStyleColor();
         }
+        if (record)
+        	ImGui::PopStyleColor();
         ImGui::SameLine(0.0f,0.0f);
 
         // instrument
@@ -3039,6 +2861,8 @@ void drawPatterns(float ypos) {
           sprintf(id,"%s##PI%d_%.2X",hexValues[p->data[i][j][1]],i,j);
           ImGui::PushStyleColor(ImGuiCol_Text,colors[colInstrument]);
         }
+        if (record)
+        	ImGui::PushStyleColor(ImGuiCol_Header, 0x91141fff);
         ImGui::Selectable(id,selectedIns,ImGuiSelectableFlags_NoPadWithHalfSpacing,twoChars);
         if (ImGui::IsItemClicked()) {
           startSelection(1+j*5,i);
@@ -3047,11 +2871,15 @@ void drawPatterns(float ypos) {
           updateSelection(1+j*5,i);
         }
         ImGui::PopStyleColor();
+        if (record)
+        	ImGui::PopStyleColor();
         ImGui::SameLine(0.0f,0.0f);
 
         // volume
         sprintf(id,"%s##PV%d_%.2X",volValues[p->data[i][j][2]],i,j);
         ImGui::PushStyleColor(ImGuiCol_Text,colors[(p->data[i][j][2]==0)?colInvalidEffect:colVolume]);
+        if (record)
+        	ImGui::PushStyleColor(ImGuiCol_Header, 0x91141fff);
         ImGui::Selectable(id,selectedVol,ImGuiSelectableFlags_NoPadWithHalfSpacing,threeChars);
         if (ImGui::IsItemClicked()) {
           startSelection(2+j*5,i);
@@ -3060,11 +2888,15 @@ void drawPatterns(float ypos) {
           updateSelection(2+j*5,i);
         }
         ImGui::PopStyleColor();
+        if (record)
+        	ImGui::PopStyleColor();
         ImGui::SameLine(0.0f,0.0f);
 
         // effect
         sprintf(id,"%s##PE%d_%.2X",getFX(p->data[i][j][3]),i,j);
         ImGui::PushStyleColor(ImGuiCol_Text,colors[getFXColor(p->data[i][j][3])]);
+        if (record)
+        	ImGui::PushStyleColor(ImGuiCol_Header, 0x91141fff);
         ImGui::Selectable(id,selectedEffect,ImGuiSelectableFlags_NoPadWithHalfSpacing,oneChar);
         if (ImGui::IsItemClicked()) {
           startSelection(3+j*5,i);
@@ -3072,6 +2904,8 @@ void drawPatterns(float ypos) {
         if (ImGui::IsItemHovered(ImGuiHoveredFlags_AllowWhenBlockedByActiveItem)) {
           updateSelection(3+j*5,i);
         }
+        if (record)
+        	ImGui::PopStyleColor();
         ImGui::SameLine(0.0f,0.0f);
 
         // effect value
@@ -3080,6 +2914,8 @@ void drawPatterns(float ypos) {
         } else {
           sprintf(id,"%s##PF%d_%.2X",hexValues[p->data[i][j][4]],i,j);
         }
+        if (record)
+        	ImGui::PushStyleColor(ImGuiCol_Header, 0x91141fff);
         ImGui::Selectable(id,selectedEffectVal,ImGuiSelectableFlags_NoPadWithHalfSpacing,twoChars);
         if (ImGui::IsItemClicked()) {
           startSelection(4+j*5,i);
@@ -3088,6 +2924,8 @@ void drawPatterns(float ypos) {
           updateSelection(4+j*5,i);
         }
         ImGui::PopStyleColor();
+        if (record)
+        	ImGui::PopStyleColor();
       }
     }
     for (int i=0; i<=drawStart; i++) {
@@ -3152,6 +2990,7 @@ const int I_U8_MAX=255;
 const int ONE=1;
 const unsigned short ZERO=0;
 const unsigned short ZOOM_MAX=32768;
+const unsigned long OFFSET_MAX=524288;
 const unsigned short SIXTY_FIVE_THOUSAND_FIVE_HUNDRED_THIRTY_FIVE=65535;
 const unsigned short SHORT_MAX=65535;
 const unsigned char _CHAR_MAX=255;
@@ -3897,50 +3736,60 @@ void doNoteInput(SDL_Event& ev) {
   switch (type) {
     case 0: // note
       try {
-        int note=noteKeys.at(ev.key.keysym.sym);
-        if (note>250) {
-          p->data[selStart.y][channel][0]=note&15;
-        } else {
-          p->data[selStart.y][channel][0]=hscale(curoctave*12+note);
-          if (curins!=0) p->data[selStart.y][channel][1]=curins;
-          player.testNoteOn(channel,p->data[selStart.y][channel][1],1+curoctave*12+note);
-        }
+      	int note=noteKeys.at(ev.key.keysym.sym);
+      	if (record) {
+		      if (note>250) {
+		        p->data[selStart.y][channel][0]=note&15;
+		      } else {
+		        p->data[selStart.y][channel][0]=hscale(curoctave*12+note);
+		        if (curins!=0) p->data[selStart.y][channel][1]=curins;
+		        player.testNoteOn(channel,curins,1+curoctave*12+note);
+		      }
 
-        selStart.y++;
-        if (selStart.y>=p->length) selStart.y=p->length-1;
-        selEnd=selStart;
-        updateScroll(selStart.y);
+		      selStart.y++;
+		      if (selStart.y>=p->length) selStart.y=p->length-1;
+		      selEnd=selStart;
+		      updateScroll(selStart.y);
+        } else {
+        	player.testNoteOn(channel,curins,1+curoctave*12+note);
+        }
       } catch (std::out_of_range& e) {
       }
       break;
     case 1: case 4: // instrument or effect value
       try {
-        int value=valueKeys.at(ev.key.keysym.sym);
-        p->data[selStart.y][channel][type]=(p->data[selStart.y][channel][type]<<4)|value;
+      	if (record) {
+        	int value=valueKeys.at(ev.key.keysym.sym);
+        	p->data[selStart.y][channel][type]=(p->data[selStart.y][channel][type]<<4)|value;
+        }
       } catch (std::out_of_range& e) {
       }
       break;
     case 2: // volume
       try {
-        int value=valueKeys.at(ev.key.keysym.sym);
-        if (p->data[selStart.y][channel][2]==0) p->data[selStart.y][channel][2]=0x40;
-        if ((p->data[selStart.y][channel][2]&0xc0)==0x40 || (p->data[selStart.y][channel][2]&0xc0)==0x80) {
-          unsigned char newVal=((p->data[selStart.y][channel][2]&0x3f)<<4)|value;
-          if (newVal>0x3f) {
-            p->data[selStart.y][channel][2]=(p->data[selStart.y][channel][2]&0xc0)|0x30|value;
-          } else {
-            p->data[selStart.y][channel][2]=(p->data[selStart.y][channel][2]&0xc0)|newVal;
-          }
-        } else {
-          p->data[selStart.y][channel][2]=(p->data[selStart.y][channel][2]&0xf0)|value;
-        }
+      	if (record) {
+		      int value=valueKeys.at(ev.key.keysym.sym);
+		      if (p->data[selStart.y][channel][2]==0) p->data[selStart.y][channel][2]=0x40;
+		      if ((p->data[selStart.y][channel][2]&0xc0)==0x40 || (p->data[selStart.y][channel][2]&0xc0)==0x80) {
+		        unsigned char newVal=((p->data[selStart.y][channel][2]&0x3f)<<4)|value;
+		        if (newVal>0x3f) {
+		          p->data[selStart.y][channel][2]=(p->data[selStart.y][channel][2]&0xc0)|0x30|value;
+		        } else {
+		          p->data[selStart.y][channel][2]=(p->data[selStart.y][channel][2]&0xc0)|newVal;
+		        }
+		      } else {
+		        p->data[selStart.y][channel][2]=(p->data[selStart.y][channel][2]&0xf0)|value;
+		      }
+		    }
       } catch (std::out_of_range& e) {
       }
       break;
     case 3: // effect
       try {
-        int value=effectKeys.at(ev.key.keysym.sym);
-        p->data[selStart.y][channel][3]=value;
+      	if (record) {
+	      	int value=effectKeys.at(ev.key.keysym.sym);
+  	    	p->data[selStart.y][channel][3]=value;
+  	    }
       } catch (std::out_of_range& e) {
       }
       break;
@@ -4177,14 +4026,23 @@ void keyDown(SDL_Event& ev) {
             player.play();
           }
           break;
+        case SDLK_SPACE:
+        	if (record)
+	        	record=false;
+	        else
+	        	record=true;
+        	break;
         case SDLK_BACKSPACE:
-          doPullDelete();
+        	if (record)
+	          doPullDelete();
           break;
         case SDLK_INSERT:
-          doInsert();
+        	if (record)
+	          doInsert();
           break;
         case SDLK_DELETE:
-          doDelete();
+	        if (record)
+          	doDelete();
           break;
         case SDLK_UP:
           if (--selStart.y<0) selStart.y=0;
@@ -4232,8 +4090,19 @@ void keyDown(SDL_Event& ev) {
           updateScroll(selStart.y);
           break;
         }
+        case SDLK_KP_MULTIPLY:
+        	curoctave++;
+        	break;
+        case SDLK_KP_DIVIDE:
+        	curoctave--;
+        	break;
         default:
-          doNoteInput(ev);
+        	if (!debounce && !record) {
+        		debounce=true;
+		        doNoteInput(ev);
+		       } else {
+		       	doNoteInput(ev);
+		       }
           break;
       }
       break;
@@ -4258,6 +4127,8 @@ void keyUp(SDL_Event& ev) {
           int note=noteKeys.at(ev.key.keysym.sym);
           if (note<=250) {
             player.testNoteOff(selStart.x/5);
+            if (debounce)
+            	debounce=false;
           }
         } catch (std::out_of_range& e) {
         }
@@ -4465,6 +4336,8 @@ bool updateDisp() {
   if (ImGui::Button("Stop")) {
     player.stop();
   }
+  ImGui::SameLine();
+  ImGui::Checkbox("Edit",&record);
   if (ImGui::Checkbox("NTSC",&ntsc)) {
     if (!tempolock) {
       player.ntsc=ntsc;
@@ -4486,6 +4359,7 @@ bool updateDisp() {
     if (multAmp<0.0f) multAmp=0.0f;
     amp=multAmp/100.0f;
   }
+  ImGui::Text("soundtracker r153");
   ImGui::EndChild();
 
   ImGui::NextColumn();
