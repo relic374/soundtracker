@@ -16,6 +16,9 @@ the only available build instructions are for linux. if you have built it on ano
 
 ## linux build instructions
 
+note that when cloning this repo, you'll need to use --recursive to also clone the dependencies.
+i.e `git clone --recursive https://github.com/host12prog/soundtracker.git`
+
 on your distro you'll need CMake, Git and a C++ compiler.
 run the following commands:
 ```
